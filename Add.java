@@ -8,6 +8,7 @@ public class Add {
         System.out.println("Enter second number: ");
         int b=sc.nextInt();
         System.out.println("Sum of a and b: "+ (a+b));
+	sc.close();
     }
     
 }
